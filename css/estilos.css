@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+:root{
+	--cor-fundo1: #000;
+	--cor-fundo2: #222634;
+	--cor-verde: #009748;
+	--cor-texto: #fff;
+	--nome-fonte: 'inter';
+}
+
+header{
+	background-color: var(--cor-fundo1);
+	text-align: center;
+	padding: 20px;
+}
+
+#inicio{
+	background-color: var(--cor-fundo1);
+	height: 700px;
+}
+.container{
+	background-image: url('../imagens/fundo.sessão.png');
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 700px;
+	margin: 0 auto;
+}
+.lateral_esquerda{
+	background-color: transparent;
+	width: 720px;
+	padding-top: 100px;
+}
+.titulo{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+	color: var(--cor-texto);
+}
+.botao_assine{
+	color: var(--cor-texto);
+	background-color: var(--cor-verde);
+	text-decoration: nome;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+	text-align: center;
+	width: 388px;
+	display: block;
+	margin: 10px 150px;
+	padding: 16px;
+
+	border-radius: 10px;
+}
+.botao_assine2{
+	color: var(--cor-texto);
+	background-color: var(--cor-fundo1);
+	text-decoration: nome;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	margin: 10px 150px;
+	padding: 16px;
+   
+	border-radius: 10px;
+
+	border: 1px solid var(--cor-texto);
+}
+#assista{
+	background-color: var(--cor-fundo2);
+	height: 700px;
+}
+.assista_esquerda{
+	padding-top: 98px;
+	width: 720px;
+	float: left;
+	margin-left: 30px;
+}
+.assista_direita{
+	padding-top: 200px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 400;
+	font-size: 48px 16px;
+	line-height: 120% 150%;
+	color: var(--cor-texto);
+	width: 720px;
+	float: right;
+}
+.titulo1{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	color: var(--cor-texto);
+}
+#combo{
+	background-color: var(--cor-fundo1);
+	height: 700px;
+}
+
+.combo_esquerda{
+	padding-top: 180px;
+	width: 720px;
+	float: left;
+	margin-left: 30px;
+}
+
+.combo_direita{
+	padding-top: 98px;
+	width: 720px;
+	float: right;
+}
+
+
+.titulo2{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 16px;
+	color: var(--cor-texto);
+	text-align: center;
+}
+#telemoveis{
+	background-color: var(--cor-fundo2);
+	height: 500px;
+	padding-top: 150px;
+}
+.conteudo_telemoveis{
+	width: 900px;
+	display: grid;
+	grid-template-columns: 345px 345px 345px;
+	gap: 0px;
+	font-size: 32px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+#telemoveis p {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 26px;
+	color: var(--cor-texto);
+	text-align: center;
+}
+#telemoveis img {
+	text-align: center;
+}
+.telmovel_esquerda {
+	text-align: center;
+	margin: 0 auto;
+}
+.control_form{
+	text-align: center;
+	background-color: var(--fundo-form);
+	color: var(--texto);
+	border: 1px solid var(--cor-texto);
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+	padding: 10px;
+	width: 500px;
+}
+.button_form{
+	background-color: var(--cor-botão);
+	color: var(--cor-texto);
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	display: block;
+	width: 520px;
+	margin: 0 auto;
+	font-size: 16px;
+	border: 2px solid transparent;
+}
